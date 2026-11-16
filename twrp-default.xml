@@ -39,7 +39,7 @@
     <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
     <!-- TWRP lives in TeamWin repo -->
-    <project path="bootable/recovery" name="VastCore/TWRP-Recovery-Code" remote="github" revision="android-12.1"/>
+    <project path="bootable/recovery" name="VastCoreOS3/TWRP-Recovery-Code" remote="github" revision="android-12.1"/>
 
     <!-- Use TeamWin repos for full recovery compatibility -->
     <project path="build/make" name="android_build" remote="TeamWin" revision="android-12.1" groups="pdk">
